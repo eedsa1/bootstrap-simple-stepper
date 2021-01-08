@@ -1,0 +1,373 @@
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+<div class="container"></div>,<div class="container">
+  
+    <div class="stepwizard col-md-offset-3">
+        <div class="stepwizard-row setup-panel">
+          <div class="stepwizard-step">
+            <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+            <p>Step 1</p>
+          </div>
+          <div class="stepwizard-step">
+            <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+            <p>Step 2</p>
+          </div>
+          <div class="stepwizard-step">
+            <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+            <p>Step 3</p>
+          </div>
+        </div>
+      </div>
+      
+      <form role="form" action="" method="post">
+        <div class="row setup-content" id="step-1">
+          <div class="col-xs-6 col-md-offset-3">
+            <div class="col-md-12">
+               
+                   
+              <h3 > Step 1 / 3</h3>
+              <p>Vos informations personnelles</p>
+              
+              
+            
+              <div class="form-group">
+                <label class="control-label">Matricule</label>
+                <input maxlength="7" type="text" required="required" class="form-control" placeholder="Enter Matricule">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Email</label>
+                <input maxlength="100" type="email" required="required" class="form-control" placeholder="Enter Your Email">
+              </div>
+               <div class="form-group">
+                <label class="control-label">Telephone</label>
+                <input maxlength="100" type="tel" required="required" class="form-control" placeholder="Enter Your Telephone">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Type Agent</label>
+                <select class="form-control">
+                <option value="">-------</option>
+                <option>Administratif</option>
+                <option>Craie en main</option>
+                </select>          
+                </div>
+                
+                <div class="form-group">
+                <label class="control-label">Emploi</label>
+                <select class="form-control">
+                <option value="">-------</option>
+                <option>Instituteur</option>
+                <option>Professeur</option>
+                </select>          
+                </div>
+                <div class="form-group">
+                <label class="control-label">Discipline</label>
+                <select class="form-control">
+                <option value="">-------</option>
+                <option>H-G</option>
+                <option>TICE</option>
+                </select>          
+                </div>
+                <div class="form-group">
+                <label class="control-label">Numero</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>          
+                </div>
+              <div class="form-group">
+                <label class="control-label">Address</label>
+                <textarea required="required" class="form-control" placeholder="Enter your address"></textarea>
+              </div>
+             <span class="label label-info">Structure d'origine</span>
+             <div class="form-group">
+                <label class="control-label">Dren</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>          
+                </div>
+                <div class="form-group">
+                <label class="control-label">Etablissement</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>          
+                </div>
+                <div class="form-group">
+                <label class="control-label">Iep</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>          
+                </div>
+                <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>          
+                </div>
+              <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">Next</button>
+            </div>
+          </div>
+        </div>
+        <div class="row setup-content" id="step-2">
+          <div class="col-xs-6 col-md-offset-3">
+            <div class="col-md-12">
+              <h3> Step 2 / 3</h3>
+              <p>Vos choix souhaités</p>
+              <span class="label label-info">Choix 1 souhaité</span>
+              <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+              <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+                <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select> 
+                 </div>
+                <span class="label label-info">Choix 2 Souhaité</span>
+                <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+              <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+                <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select> 
+                 </div>
+                 <span class="label label-info">Choix 3 Souhaité</span>
+                 <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+              <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select>   
+                 </div>
+                <div class="form-group">
+                <label class="control-label">Ecole</label>
+                <select class="form-control">
+                <option value="">One</option>
+                <option>Two</option>
+                <option>Three</option>
+                </select> 
+                 </div>
+                 
+              <button class="btn btn-primary prevBtn btn-lg pull-left" type="button">Previous</button>
+              <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">Next</button>
+            </div>
+          </div>
+        </div>
+        <div class="row setup-content" id="step-3">
+          <div class="col-xs-6 col-md-offset-3">
+            <div class="col-md-12">
+              <h3> Step 3 / 3</h3>
+              <p>Vos Conditions</p>
+             
+                  <textarea>             
+                  Le site proposera l’interface en langue française.
+    
+    2.2- Environnement de développement
+    Environnement de développement de la plateforme comportant une base de données
+    Le prestataire a la possibilité de choisir l'environnement de développement adapté aux exigences du projet.
+    En ce qui concerne la base de données, le prestataire doit être en mesure de proposer une base 
+    adaptée aux caractéristiques du projet. Le prestataire devra présenter une modélisation 
+    (UML, MCD,etc.) au donneur d'ordre avant intégration.
+    Il devra également prendre en charge l'installation et la configuration du support de stockage 
+    de la base de données si nécessaire.
+    Environnement de site dynamique
+    La conception de la plateforme doit s'effectuer dans l'environnement de développement suivant :
+    - SGBD : Mysql, Sybase, Postgres, Oracle
+    - Environnement de développement (HTML, PHP, XML, etc.) : HMTL, PHP, .net, ASP, Java, Cfm
+    , DHTML, XML, C, Perl, JSP, Flash
+    - Serveur : Tomcat, Websphere, IIS, Apache, Linux
+    
+    Environnement de développement imposé par le donneur d'ordre
+    PHP/Mysql  
+    
+    Le prestataire devra réaliser le site dans l'environnement de développement suivant :
+    - SGBD : mysql
+    - Environnement de développement (HTML, PHP, XML, etc.) : PHP MVC
+    Pour arriver à notre but, il faudra utiliser différents langages de programmation : xHTML, CSS, 
+    JavaScript, AJAX, PHP/SQL…
+    AJAX et JavaScript serviront à avoir des animations dans le site, entre les pages ; PHP servira à générer 
+    les contenus texte dans le code source de la page, et SQL servira à la gestion de la base de données.
+    
+    2.3-  Maquette de site
+    Maquette du site  à fournir
+    Le prestataire doit fournir une maquette du site dans le but de vérifier que le site est conforme 
+    aux objectifs.
+    Elle permet également de vérifier :
+    - le contenu graphique (logo, images, éléments et ambiances graphiques),
+    - l'ergonomie du site,
+    - la pertinence du contenu informationnel,
+    - la présentation du menu de navigation,
+    La maquette doit être réalisée avec des liens statiques en HTML pour simuler l’affichage de tous les
+     types de contenus.
+    NB : il faut noter que dans notre cas la maquette est gérée par le client elle-même.
+    Site de référence : 
+    
+    
+    2.4- Hébergement et nom de domaine
+    Hébergement du  site 
+    L'hébergement proposé doit correspondre aux contraintes d'un site, il doit prendre 
+    en compte les éléments suivants:
+    - un système de sauvegarde régulière des données à plusieurs niveaux,
+    - une restauration des données possibles en cas de dysfonctionnement,
+    - l'hébergement doit supporter la connexion simultanée de plusieurs utilisateurs,
+    - installation et la configuration d'une base de données ,
+    - nom de domaine
+                  
+              </textarea>
+               </div>
+              <button class="btn btn-primary prevBtn btn-lg pull-left" type="button">Previous</button>
+              <button class="btn btn-success btn-lg pull-right" type="submit">Submit</button>
+            </div>
+          </div>
+        </form></div>
+      
+      
+<script>
+    $(document).ready(function () {
+  var navListItems = $('div.setup-panel div a'),
+          allWells = $('.setup-content'),
+          allNextBtn = $('.nextBtn'),
+  		  allPrevBtn = $('.prevBtn');
+
+  allWells.hide();
+
+  navListItems.click(function (e) {
+      e.preventDefault();
+      var $target = $($(this).attr('href')),
+              $item = $(this);
+
+      if (!$item.hasClass('disabled')) {
+          navListItems.removeClass('btn-primary').addClass('btn-default');
+          $item.addClass('btn-primary');
+          allWells.hide();
+          $target.show();
+          $target.find('input:eq(0)').focus();
+      }
+  });
+  
+  allPrevBtn.click(function(){
+      var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          prevStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a");
+
+          prevStepWizard.removeAttr('disabled').trigger('click');
+  });
+
+  allNextBtn.click(function(){
+      var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+          curInputs = curStep.find("input[type='text'],input[type='url']"),
+          isValid = true;
+
+      $(".form-group").removeClass("has-error");
+      for(var i=0; i<curInputs.length; i++){
+          if (!curInputs[i].validity.valid){
+              isValid = false;
+              $(curInputs[i]).closest(".form-group").addClass("has-error");
+          }
+      }
+
+      if (isValid)
+          nextStepWizard.removeAttr('disabled').trigger('click');
+  });
+
+  $('div.setup-panel div a.btn-primary').trigger('click');
+});
+</script>
+<style>
+    body {
+    margin-top:40px;
+}
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+</style>
